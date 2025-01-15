@@ -18,7 +18,7 @@ This repository contains an **automation testing framework** built using **TestN
 
 ## Getting Started:
 1. Clone this repository:  
-   `git clone https://github.com/yourusername/testng-framework.git`
+   `git clone git@github.com:AnandBind/Selenium-TestNG-Framework.git`
 2. Install dependencies using Maven:
    `mvn install`
 3. Run tests with the following command:
