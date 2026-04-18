@@ -68,6 +68,8 @@ This is the core setup.
 
 </dependencies>
 
+mvn clean install
+
 Then reload Maven.
 
 4. Create a Basic Test
