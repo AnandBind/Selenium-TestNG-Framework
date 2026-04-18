@@ -24,6 +24,56 @@ This repository contains an **automation testing framework** built using **TestN
 3. Run tests with the following command:
    `mvn test`
 
+   2. Create a Maven Project
+
+In your IDE:
+
+Create a New Maven Project
+Use default archetype (or maven-archetype-quickstart)
+
+Your structure should look like:
+
+project-name
+ └── src
+     ├── main/java
+     └── test/java
+ └── pom.xml
+3. Add Dependencies in pom.xml
+
+This is the core setup.
+
+<dependencies>
+
+    <!-- Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.20.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- WebDriver Manager (auto driver setup) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+    </dependency>
+
+</dependencies>
+
+Then reload Maven.
+
+4. Create a Basic Test
+
+Example test using Selenium WebDriver + TestNG:
+
 ## Example TestNG Test Class:
 ```java
 import org.openqa.selenium.WebDriver;
