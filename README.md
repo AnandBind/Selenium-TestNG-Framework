@@ -26,7 +26,7 @@ This repository contains an **automation testing framework** built using **TestN
 
    2. Create a Maven Project
 
-###In your IDE:
+### OR In your IDE:
 
 Create a New Maven Project
 Use default archetype (or maven-archetype-quickstart)
